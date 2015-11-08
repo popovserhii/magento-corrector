@@ -7,7 +7,6 @@
  * @author Popov Sergiy <popov@agere.com.ua>
  * @datetime: 03.11.15 19:15
  */
-
 #ini_set('display_errors', 'on');
 #error_reporting(-1);
 
@@ -177,6 +176,7 @@ class Mage_Shell_Corrector extends Mage_Shell_Abstract {
 		if (!$this->importFile && ($filePathname = $this->getArg('file'))) {
 			$this->importFile = new \SplFileInfo(Mage::getBaseDir('var') . '/' . $filePathname);
 		}
+
 
 		return $this->importFile;
 	}
