@@ -7,6 +7,7 @@
  * @author Popov Sergiy <popov@agere.com.ua>
  * @datetime: 03.11.15 19:15
  */
+
 #ini_set('display_errors', 'on');
 #error_reporting(-1);
 
