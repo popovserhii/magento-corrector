@@ -7,7 +7,7 @@ Export only configurable products though standard Import/Export.
 Run script and put path to file relative ```var/``` directory.
 
 ```
-php shell/corrector.php --file export/yuor-configurable-products.csv
+php shell/corrector.php --file export/your-configurable-products.csv
 ```
 
 After you can take file from var/export/
