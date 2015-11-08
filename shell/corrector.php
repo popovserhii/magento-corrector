@@ -170,6 +170,7 @@ class Mage_Shell_Corrector extends Mage_Shell_Abstract {
 
 		$importCsv->streamClose();
 		$correctedCsv->streamClose();
+
 	}
 
 	protected function getImportFile() {
